@@ -8,4 +8,4 @@ if __name__ == '__main__':
     if port != 0:
         app.run(host='0.0.0.0', port=port)
     else:
-        app.run()
+        app.run(host='0.0.0.0')
